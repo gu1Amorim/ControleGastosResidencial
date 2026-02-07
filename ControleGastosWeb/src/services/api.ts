@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  // URL da sua API C# (confira a porta no seu Visual Studio!)
+  // ATENÇÃO: Caso a porta da API mude durante a execução, altere o número abaixo:
   baseURL: 'https://localhost:7012/api', 
   headers: {
     'Content-Type': 'application/json',
