@@ -1,0 +1,14 @@
+# Pastas do .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+.vscode/
+
+# Pastas do React (Node)
+node_modules/
+build/
+.env.local
+
+# Arquivos de usuário
+*.user
+*.suo
