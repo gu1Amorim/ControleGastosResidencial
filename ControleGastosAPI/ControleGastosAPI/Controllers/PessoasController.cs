@@ -48,6 +48,8 @@ namespace ControleGastosAPI.Controllers
             return Ok(pessoa);
         }
 
+// REQUISITO: Ao deletar uma pessoa, todas as transações vinculadas são removidas.
+// O Entity Framework está configurado para Cascade Delete, garantindo a integridade dos dados.
         [HttpDelete("{id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
